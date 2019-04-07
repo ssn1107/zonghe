@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrap .mui-bar {
+    width: 100%;
+    height: 44px; }
+    .wrap .mui-bar #inpsearch {
+      flex: 1;
+      height: 44px; }
+  .wrap #uls {
+    width: 100%;
+    height: 100%; }
+    .wrap #uls li {
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      align-item: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      box-sizing: border-box; }
+      .wrap #uls li span {
+        height: 50px;
+        line-height: 50px; }
